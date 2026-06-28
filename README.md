@@ -33,7 +33,7 @@ A local-first CCNA certification study app with an AI tutor, built with PowerSyn
 
 ## Architecture
 
-Progress data (lesson completions, lab scores, notes, streaks) is written to Neon via a server-side API route and synced to the client through PowerSync's local SQLite layer. This means the app stays responsive and functional offline — state is stored locally first and synced when connectivity is available.
+Progress data (lesson completions, lab scores, notes, streaks) is written to Neon via a server-side API route and synced to the client through PowerSync's local SQLite layer. The offline capabilites are in progress however — End goal = state is stored locally first and synced when connectivity is available.
 
 The AI tutor has full context of the current lesson and slide, enabling targeted answers rather than generic responses.
 
