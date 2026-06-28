@@ -1,4 +1,4 @@
-# Net Prep
+# Prep Net
 
 **Live preview:** https://prep-net.vercel.app/
 
